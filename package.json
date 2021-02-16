@@ -1,0 +1,29 @@
+{
+  "name": "vw-discord-rpc",
+  "version": "1.0.0",
+  "description": "Discord RPC for Mods",
+  "main": "index.html",
+  "scripts": {
+    "start": "nw ."
+  },
+  "devDependencies": {
+    "nw": "0.33.4-sdk"
+  },
+  "window": {
+    "icon": "assets/icon.png",
+    "show": false,
+    "show_in_taskbar": false
+  },
+  "repository": "https://github.com/TheJaredWilcurt/nw-tray-example",
+  "license": "MIT",
+  "dependencies": {
+    "discord-rpc": "^3.1.4",
+    "node-webkit-builder": "^1.0.13"
+  },
+  "bin": {
+    "mkvmergeaudio": "index.js"
+  },
+  "resolutions": {
+    "graceful-fs": "^4.2.4"
+  }
+}
